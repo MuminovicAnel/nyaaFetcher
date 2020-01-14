@@ -1,7 +1,6 @@
 # nyaaFetcher
 
-Search and download on nyaa.si
-
+Search and download on nyaa.si with qbittorrent client api
 
 
 ### Requirements
