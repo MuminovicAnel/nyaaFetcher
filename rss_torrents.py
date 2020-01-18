@@ -36,6 +36,8 @@ if (len(response.entries) != 0):
                     click.echo('Downloading...')
                     qbt_client.torrents_add(titles.link, savepath=cfg.savepath['path'])
             elif ( '1_2' in titles.nyaa_categoryid):
+                print(titles.title)
+                print(titles.link)
                 if click.confirm('Do you want to download ?'):
                     click.echo('Downloading...')
                     qbt_client.torrents_add(titles.link, savepath=cfg.savepath['path'])
